@@ -11,6 +11,8 @@ int main()
     char var4 = 'Y'; // 89
 
     cout << var1 + var2 + var3 + var4; // should show the total sum of the four characters in the ASCII table
+    //this will print out 320 when added all together
+    //because the + is being read first before cout so they are being printed as a number
 
     char var5 = '\n'; // this creates a new line in the output
     char var6 = 'A';
@@ -19,5 +21,7 @@ int main()
     char var9 = 'Y';
 
     cout << var5 << var6 << var7 << var8 << var9; // should show the four characters in the ASCII table
+    //this will print out ARTY on a new line 
+    //because cout is being read first each character is being printed as a character instead of a number
         return 0; // end of the program
 }
